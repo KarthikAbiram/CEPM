@@ -1,2 +1,2 @@
-# cepm
-Copy Exact Package Manager
+# CEPM
+Copy Exact Package Manager (CEPM)
