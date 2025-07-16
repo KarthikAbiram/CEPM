@@ -15,4 +15,5 @@
 	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
 	<Item Name="Install.vi" Type="VI" URL="../Install.vi"/>
 	<Item Name="InstallPreview.vi" Type="VI" URL="../InstallPreview.vi"/>
+	<Item Name="CreateWithReferencePackagePath.vi" Type="VI" URL="../CreateWithReferencePackagePath.vi"/>
 </Library>
