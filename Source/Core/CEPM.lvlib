@@ -9,6 +9,12 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="IsAdmin.vi" Type="VI" URL="../SubVIs/IsAdmin.vi"/>
+		<Item Name="CEPMLocalFeedPath.vi" Type="VI" URL="../SubVIs/CEPMLocalFeedPath.vi"/>
+		<Item Name="RegisterCEPMLocalFeed.vi" Type="VI" URL="../SubVIs/RegisterCEPMLocalFeed.vi"/>
+		<Item Name="AddPackageToCEPMFeed.vi" Type="VI" URL="../SubVIs/AddPackageToCEPMFeed.vi"/>
+		<Item Name="RemovePackageFromCEPMFeed.vi" Type="VI" URL="../SubVIs/RemovePackageFromCEPMFeed.vi"/>
+		<Item Name="UnregisterCEPMLocalFeed.vi" Type="VI" URL="../SubVIs/UnregisterCEPMLocalFeed.vi"/>
 		<Item Name="RemoveEmptyLinesFromControlFile.vi" Type="VI" URL="../SubVIs/RemoveEmptyLinesFromControlFile.vi"/>
 		<Item Name="GetCopyExactDependencies.vi" Type="VI" URL="../SubVIs/GetCopyExactDependencies.vi"/>
 	</Item>
