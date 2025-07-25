@@ -17,6 +17,7 @@
 		<Item Name="RemovePackageFromCEPMFeed.vi" Type="VI" URL="../SubVIs/RemovePackageFromCEPMFeed.vi"/>
 		<Item Name="UnregisterCEPMLocalFeed.vi" Type="VI" URL="../SubVIs/UnregisterCEPMLocalFeed.vi"/>
 		<Item Name="RemoveEmptyLinesFromControlFile.vi" Type="VI" URL="../SubVIs/RemoveEmptyLinesFromControlFile.vi"/>
+		<Item Name="ListAvailablePackagesInFeed.vi" Type="VI" URL="../SubVIs/ListAvailablePackagesInFeed.vi"/>
 		<Item Name="GetCopyExactDependencies.vi" Type="VI" URL="../SubVIs/GetCopyExactDependencies.vi"/>
 	</Item>
 	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
