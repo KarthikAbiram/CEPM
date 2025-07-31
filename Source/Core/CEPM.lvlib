@@ -20,8 +20,12 @@
 		<Item Name="ListAvailablePackagesInFeed.vi" Type="VI" URL="../SubVIs/ListAvailablePackagesInFeed.vi"/>
 		<Item Name="GetCopyExactDependencies.vi" Type="VI" URL="../SubVIs/GetCopyExactDependencies.vi"/>
 	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="PackageMeta.ctl" Type="VI" URL="../Typedefs/PackageMeta.ctl"/>
+	</Item>
 	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
 	<Item Name="Install.vi" Type="VI" URL="../Install.vi"/>
 	<Item Name="InstallPreview.vi" Type="VI" URL="../InstallPreview.vi"/>
 	<Item Name="CreateWithReferencePackagePath.vi" Type="VI" URL="../CreateWithReferencePackagePath.vi"/>
+	<Item Name="ParseFeedPackageMeta.vi" Type="VI" URL="../SubVIs/ParseFeedPackageMeta.vi"/>
 </Library>
