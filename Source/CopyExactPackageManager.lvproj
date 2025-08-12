@@ -142,8 +142,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C40AB4F4-7B69-442E-BC12-EC3752EE78F6}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CEPM.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/EXE/CEPM.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -152,17 +152,16 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/EXE/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D639A96F-85BC-4249-AFF2-48B1630554CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7540F0D5-4F3C-4E59-9D1B-3B53C602A2EB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UI/CEPM UI.lvlib/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Soliton Technologies</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CEPM EXE</Property>
 				<Property Name="TgtF_internalName" Type="Str">CEPM EXE</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Soliton Technologies</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Karthik Abiram</Property>
 				<Property Name="TgtF_productName" Type="Str">CEPM EXE</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B23E4DE2-0F95-4B0E-9ECF-1CE009317114}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CEPM.exe</Property>
@@ -178,7 +177,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/CEPM Package/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">cepm_0.0.1-7_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">cepm_0.0.1-8_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -186,7 +185,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">8</Property>
+				<Property Name="PKG_buildNumber" Type="Int">9</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">CEPM Package</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
