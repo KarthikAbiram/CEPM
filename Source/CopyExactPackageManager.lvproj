@@ -15,6 +15,9 @@
 			<Item Name="CEPM.lvlib" Type="Library" URL="../Core/CEPM.lvlib"/>
 			<Item Name="Scratch.vi" Type="VI" URL="../Core/Scratch.vi"/>
 		</Item>
+		<Item Name="Externals" Type="Folder">
+			<Item Name="Feed Manager.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/Feed Manager.vi"/>
+		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="CEPM UI.lvlib" Type="Library" URL="../UI/CEPM UI.lvlib"/>
 		</Item>
@@ -44,6 +47,7 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -85,12 +89,17 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NIPM_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/NIPM API (Beta)/NIPM_API.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
+				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -100,6 +109,10 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="SLL Debug.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL Debug/SLL Debug.lvlib"/>
@@ -116,15 +129,32 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Configure Feed Manager Feeds.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Configure Feed Manager Feeds.vi"/>
+			<Item Name="Configure Feeds State Data.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Configure Feeds State Data.ctl"/>
+			<Item Name="Configure Feeds States.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Configure Feeds States.ctl"/>
+			<Item Name="Create File and Subfolders.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Create File and Subfolders.vi"/>
+			<Item Name="Disable and Enable Controls.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Disable and Enable Controls.vi"/>
+			<Item Name="Feed Info.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Feed Info.ctl"/>
+			<Item Name="Feed Manager State Data.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Feed Manager State Data.ctl"/>
+			<Item Name="Feed Manager States.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Feed Manager States.ctl"/>
+			<Item Name="feed_manager_runtimemenu.rtm" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/feed_manager_runtimemenu.rtm"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Read Feed INI.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Read Feed INI.vi"/>
+			<Item Name="Register Temporary Feeds.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Register Temporary Feeds.vi"/>
+			<Item Name="Remove Package Dialog.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Remove Package Dialog.vi"/>
+			<Item Name="Specify Feed Settings Dialog.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Specify Feed Settings Dialog.vi"/>
+			<Item Name="Specify Feed Settings States.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Specify Feed Settings States.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="UI references.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/UI references.ctl"/>
+			<Item Name="Unregister Feeds Containing Search String.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/project/NIPM Feed Manager/_support/Unregister Feeds Containing Search String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CEPM EXE" Type="EXE">
@@ -142,7 +172,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C40AB4F4-7B69-442E-BC12-EC3752EE78F6}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CEPM.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/EXE/CEPM.exe</Property>
@@ -177,7 +207,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/CEPM Package/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">cepm_0.0.1-8_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">cepm_0.0.1-11_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -185,7 +215,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">9</Property>
+				<Property Name="PKG_buildNumber" Type="Int">12</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">CEPM Package</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
