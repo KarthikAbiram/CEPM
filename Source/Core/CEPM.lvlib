@@ -20,11 +20,13 @@
 		<Item Name="IsHttpUrl.vi" Type="VI" URL="../SubVIs/IsHttpUrl.vi"/>
 		<Item Name="GetCopyExactDependencies.vi" Type="VI" URL="../SubVIs/GetCopyExactDependencies.vi"/>
 		<Item Name="ParseFeedPackageMeta.vi" Type="VI" URL="../SubVIs/ParseFeedPackageMeta.vi"/>
+		<Item Name="ParseDependencyList.vi" Type="VI" URL="../SubVIs/ParseDependencyList.vi"/>
 		<Item Name="PreviewMultiplePackageInstall.vi" Type="VI" URL="../SubVIs/PreviewMultiplePackageInstall.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="PackageMeta.ctl" Type="VI" URL="../Typedefs/PackageMeta.ctl"/>
 		<Item Name="SystemSnapshot.ctl" Type="VI" URL="../Typedefs/SystemSnapshot.ctl"/>
+		<Item Name="DependencyRelationship.ctl" Type="VI" URL="../Typedefs/DependencyRelationship.ctl"/>
 	</Item>
 	<Item Name="CreateCopyExactPackage.vi" Type="VI" URL="../CreateCopyExactPackage.vi"/>
 	<Item Name="CreateCopyExactPackageWithReference.vi" Type="VI" URL="../CreateCopyExactPackageWithReference.vi"/>
